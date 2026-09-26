@@ -121,9 +121,9 @@ A high performance application-driven and database-integrated project to reinfor
 
 6.1. Project structure 
 
-main.py - handles user login info
-debit card,py - encrypts debit card details
-identity.py - encrypts user personal info
+- main.py - handles user login info
+- debit card,py - encrypts debit card details
+- identity.py - encrypts user personal info
  
  
 
