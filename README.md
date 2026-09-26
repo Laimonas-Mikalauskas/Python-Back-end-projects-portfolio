@@ -124,6 +124,15 @@ A high performance application-driven and database-integrated project to reinfor
 - main.py - handles user login info
 - debit card,py - encrypts debit card details
 - identity.py - encrypts user personal info
+
+7. Tech Stack
+- Python (data types, formatted console output, control flow, error handling)
+- OOP (classes, attributes and its initialisation, inheritance, encapsulation that structures         database, lightweight web application and game design)
+- SQLAlchemy ORM (database schema design, table and object relationships, CRUD operations, ORM-       based parameterized queries to eliminate SQL injection attacks)
+- Flask (backend logic, HTTP methods, app routing, request handling, template rendering)
+- FastAPI (backend logic, HTTP methods, app routing, request handling, asynchronous endpoints)
+- Werkzeug, Passlib, bcrypt (password hashing)
+- cryptography.Fernet - (authenticated symmetric data encryption) 
  
  
 
