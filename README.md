@@ -137,6 +137,9 @@ Key features:
 7. Tech Stack
 - Python (data types, formatted console output, control flow, error handling)
 - OOP (classes, attributes and its initialisation, inheritance, encapsulation that structures         database, lightweight web application and password managers design)
+- SQLAlchemy ORM (database schema design, table and object relationships, CRUD operations, ORM-       based parameterized queries to eliminate SQL injection attacks)
+- Flask (backend logic, HTTP methods, app routing, request handling, template rendering)
+- FastAPI (backend logic, HTTP methods, app routing, request handling, asynchronous endpoints)
 - Werkzeug, Passlib, bcrypt, SHA-256 (password hashing, cryptographic hashing)
 - cryptography.Fernet - (authenticated symmetric encryption) 
  
