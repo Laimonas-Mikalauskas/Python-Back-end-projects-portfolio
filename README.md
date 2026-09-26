@@ -18,3 +18,66 @@ Concepts
 - Secure user login credentials management such as password storing and hashing with Werkzeug,        Passlib and bcrypt
 - Sensitive data security such as bank account, debit card and shipping address information by        applying authenticated symmetric data encryption in password managers development with              cryptography.Fernet
 
+1. SQLAlchemy book library data management system
+
+Real-world academic database development project 
+
+Type: Object-oriented book library data management system
+
+Focus: OOP, structured database design
+
+1.1 Description:
+
+A class-based book library data management system for managing borrowed and returned books info
+that simulates real world book data management operations by using structured object relationships
+
+1.2 Key features added:
+
+- Applied class-based architecture for structured and maintainable code design
+- Displayed SQL query results by implementing formatted console output
+- Applied control flow (while, for loops to execute program repeatedly) 
+- Implemented exception handling for database operations to prevent potential errors
+  and improve data management system reliability 
+- Performed CRUD operations for data storage, retrieval, update and deletion
+- Implemented ORM models and relationships between the objects for scalable data management           operations 
+
+2. Front-end and back-end-driven developers workplace data management and task tracking system
+
+Real world personal full-stack project 
+
+Type: Object-Oriented Programming and front-end based employees data management and task tracking system
+
+Focus: OOP, structured database design, app routing, request handling, template rendering, user interface and webpage development 
+
+2.1 Description:
+
+A class-based workplace data management and task tracking system for managing and securing employee personal data. Also it tracks task progress and it is designed to simulate real-world employee data management, task tracking and security operations by using structured object relationships and backend logic combined with friendly UI.
+
+2.2 Key features made:
+
+- Applied class-based architecture to maintain and structure Python code design
+- Displayed SQL query results via formatted console output
+- Applied control flow (while, for loops to execute program repeatedly) 
+- Implemented exception handling for database operations to prevent potential errors
+  and improve data management system reliability 
+- Performed CRUD operations for user data storage, retrieval, update and deletion
+- Implemented SQLAlchemy ORM models and relationships for scalable and secure employee data           management operations 
+- Eliminated SQL injection risks by applying ORM-based parameterized queries
+- Used backend logic by implementing Flask routing, templates rendering, request handling by          developing lightweight task tracking application to support backend web operations
+- Implemented Flask-SQLAlchemy ORM models to support scalable task tracking application data          management operations  
+- Applied HTTP methods such as GET and POST to retrieve and submit task info within Flask web         application
+- Managed secure user login credentials by implementing password hashing with Werkzeug within         SQLAlchemy and Flask-SQLAlchemy databases
+- Implemented Flask-SQLAlchemy database seeding with structured string, integer and float data for    tracking app backend testing workflows within task tracking application 
+- Designed responsive design-based task management app UI created with HTML & CSS
+
+2.3 Project structure
+
+- roles.py – defines employee roles, experience and personal information
+- company.py – manages company data
+- sensitive_data_protection.py – handles personal user data security logic within SQLAlchemy          database 
+- secure_user_login.py - manages secure user login credentials within SQLAlchemy database by          implementing password hashing with Werkzeug
+- app_login.py - manages secure web application user login credentials within Flask task tracking     application 
+- task_manager.py - tracks task progress and updates by using backend logic of task tracking          application 
+- task_manager.html - creates web application page layout
+- task_manager.css - creates simple web application page design  
+
