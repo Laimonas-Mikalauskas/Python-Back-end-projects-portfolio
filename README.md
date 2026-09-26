@@ -79,5 +79,35 @@ A class-based workplace data management and task tracking system for managing an
 - app_login.py - manages secure web application user login credentials within Flask task tracking     application 
 - task_manager.py - tracks task progress and updates by using backend logic of task tracking          application 
 - task_manager.html - creates web application page layout
-- task_manager.css - creates simple web application page design  
+- task_manager.css - creates simple web application page design
+
+5. FastAPI and SQLalchemy-driven plumbing inventory stock data management and order status tracking system
+
+Type: Backend and database-driven high performance online shopping application
+
+Real-world personal backend-driven project
+
+5.1. Description:
+
+A high performance application-driven and database-integrated project to reinforce object-oriented-programming practical knowledge and develop asynchronous programming fundamentals in high performance database-integrated web application development 
+
+5.2. Key features:
+
+- Applied FastAPI routing to organize shopping app structure and backend logic
+- Applied asynchronous endpoints for structured high-performance web application design
+- Applied HTTP methods such as GET and POST to retrieve and submit customer info
+- Supported scalable item stock data management operations within FastAPI-SQLAlchemy by               implementing SQLAlchemy ORM models and table relationships 
+- Managed secure customer login credentials by implementing passsword hashing with bcrypt and         Passlib 
+- Implemented cryptography.Fernet authenticated symmetric data encryption to secure credit card and   shipping address info within an online shopping application 
+- Implemented FastAPI-SQLAlchemy database seeding with structured string, integer and float data      for tracking shopping app backend testing workflows within online plumbing equipment store          data management system
+
+5.3. Project structure:
+
+- main page.py - handles web app page logic
+- customer account.py - handles customer personal info
+- items cart.py - handles ordered items quantity logic 
+- orders.py - handles current order status logic
+- shipment.py - handles package tracking logic
+- data.py - manages plumbing equipment current stock data
+ 
 
