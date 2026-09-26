@@ -109,5 +109,21 @@ A high performance application-driven and database-integrated project to reinfor
 - orders.py - handles current order status logic
 - shipment.py - handles package tracking logic
 - data.py - manages plumbing equipment current stock data
+
+6. Password managers
+
+- Built a password managers to store customer login, debit card and personal information
+- Implemented cryptography.Fernet authenticated symmetric encryption to protect user identity and     debit card data
+- Supported user authentication by implementing Passlib, bcrypt password hashing along with
+  SHA-256 cryptographic hashing
+- Applied OOP to ensure structured and maintainable code
+- Applied core Python data types within OOP classes for password-data management and implemented      formatted console output to present processed data in the terminal.
+
+6.1. Project structure 
+
+main.py - handles user login info
+debit card,py - encrypts debit card details
+identity.py - encrypts user personal info
+ 
  
 
