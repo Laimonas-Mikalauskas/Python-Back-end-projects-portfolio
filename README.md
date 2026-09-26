@@ -83,9 +83,11 @@ A class-based workplace data management and task tracking system for managing an
 
 5. FastAPI and SQLalchemy-driven plumbing inventory stock data management and order status tracking system
 
+Real-world personal backend-driven project
+
 Type: Backend and database-driven high performance online shopping application
 
-Real-world personal backend-driven project
+Focus: OOP, structured database design, app routing, request handling, backend security 
 
 5.1. Description:
 
@@ -112,12 +114,14 @@ A high performance application-driven and database-integrated project to reinfor
 
 6. Password managers
 
+Real world personal backend security project 
+
 Type: Cryptography and password hashing projects
+
+Focus: OOP, secure login credentials management, backend security 
 
 Description:
 A simple password managers that demonstrates backend security fundamentals such as secure sensitive data and login credentials management and storage by implementing authenticated symmetric encryption, password hashing and cryptographic hashing
-
-Real world personal backend security project 
 
 Key features:
 
