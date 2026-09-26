@@ -137,7 +137,7 @@ Key features:
 7. Tech Stack
 - Python (data types, formatted console output, control flow, error handling)
 - OOP (classes, attributes and its initialisation, inheritance, encapsulation that structures         database, lightweight web application and password managers design)
-- Passlib, bcrypt, SHA-256 (password hashing, cryptographic hashing)
+- Werkzeug, Passlib, bcrypt, SHA-256 (password hashing, cryptographic hashing)
 - cryptography.Fernet - (authenticated symmetric encryption) 
  
  
