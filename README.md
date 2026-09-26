@@ -112,6 +112,15 @@ A high performance application-driven and database-integrated project to reinfor
 
 6. Password managers
 
+Type: Cryptography and password hashing projects
+
+Description:
+A simple password managers that demonstrates backend security fundamentals such as secure sensitive data and login credentials management and storage by implementing authenticated symmetric encryption, password hashing and cryptographic hashing
+
+Real world personal backend security project 
+
+Key features:
+
 - Built a password managers to store customer login, debit card and personal information
 - Implemented cryptography.Fernet authenticated symmetric encryption to protect user identity and     debit card data
 - Supported user authentication by implementing Passlib, bcrypt password hashing along with
@@ -127,12 +136,9 @@ A high performance application-driven and database-integrated project to reinfor
 
 7. Tech Stack
 - Python (data types, formatted console output, control flow, error handling)
-- OOP (classes, attributes and its initialisation, inheritance, encapsulation that structures         database, lightweight web application and game design)
-- SQLAlchemy ORM (database schema design, table and object relationships, CRUD operations, ORM-       based parameterized queries to eliminate SQL injection attacks)
-- Flask (backend logic, HTTP methods, app routing, request handling, template rendering)
-- FastAPI (backend logic, HTTP methods, app routing, request handling, asynchronous endpoints)
-- Werkzeug, Passlib, bcrypt (password hashing)
-- cryptography.Fernet - (authenticated symmetric data encryption) 
+- OOP (classes, attributes and its initialisation, inheritance, encapsulation that structures         database, lightweight web application and password managers design)
+- Passlib, bcrypt, SHA-256 (password hashing, cryptographic hashing)
+- cryptography.Fernet - (authenticated symmetric encryption) 
  
  
 
