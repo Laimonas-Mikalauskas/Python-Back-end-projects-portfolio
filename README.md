@@ -5,7 +5,7 @@ Concepts
 
 - Object-Oriented-Programming (objects, classes, attributes, methods, inheritance as core of OOP      design)
 - Modular and maintainable code design
-- Error handling (try, except statements) in database, lightweight and high-performance web           application, interactive game development
+- Error handling (try, except statements) in database, lightweight and high-performance web           application development
 - Loop implementation (while, for) to ensure smooth database runtime
 - Formatted console output for displaying processed data and SQL query results
 - Database schema design for structured data storage
