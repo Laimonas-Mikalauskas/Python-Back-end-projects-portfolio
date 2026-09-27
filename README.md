@@ -81,7 +81,7 @@ A class-based workplace data management and task tracking system for managing an
 - task_manager.html - creates web application page layout
 - task_manager.css - creates simple web application page design
 
-5. FastAPI and SQLalchemy-driven plumbing inventory stock data management and order status tracking system
+3. FastAPI and SQLalchemy-driven plumbing inventory stock data management and order status tracking system
 
 Real-world personal backend-driven project
 
@@ -89,11 +89,11 @@ Type: Backend and database-driven high performance online shopping application
 
 Focus: OOP, structured database design, app routing, request handling, backend security 
 
-5.1. Description:
+3.1. Description:
 
 A high performance application-driven and database-integrated project to reinforce object-oriented-programming practical knowledge and develop asynchronous programming fundamentals in high performance database-integrated web application development 
 
-5.2. Key features:
+3.2. Key features:
 
 - Applied FastAPI routing to organize shopping app structure and backend logic
 - Applied asynchronous endpoints for structured high-performance web application design
@@ -103,7 +103,7 @@ A high performance application-driven and database-integrated project to reinfor
 - Implemented cryptography.Fernet authenticated symmetric data encryption to secure credit card and   shipping address info within an online shopping application 
 - Implemented FastAPI-SQLAlchemy database seeding with structured string, integer and float data      for tracking shopping app backend testing workflows within online plumbing equipment store          data management system
 
-5.3. Project structure:
+3.3. Project structure:
 
 - main page.py - handles web app page logic
 - customer account.py - handles customer personal info
@@ -112,7 +112,7 @@ A high performance application-driven and database-integrated project to reinfor
 - shipment.py - handles package tracking logic
 - data.py - manages plumbing equipment current stock data
 
-6. Password managers
+5. Password managers
 
 Real world personal backend security project 
 
@@ -132,13 +132,13 @@ Key features:
 - Applied OOP to ensure structured and maintainable code
 - Applied core Python data types within OOP classes for password-data management and implemented      formatted console output to present processed data in the terminal.
 
-6.1. Project structure 
+5.1. Project structure 
 
 - main.py - handles user login info
 - debit card,py - encrypts debit card details
 - identity.py - encrypts user personal info
 
-7. Tech Stack
+6. Tech Stack
 - Python (data types, formatted console output, control flow, error handling)
 - OOP (classes, attributes and its initialisation, inheritance, encapsulation that structures         database, lightweight web application and password managers design)
 - SQLAlchemy ORM (database schema design, table and object relationships, CRUD operations, ORM-       based parameterized queries to eliminate SQL injection attacks)
