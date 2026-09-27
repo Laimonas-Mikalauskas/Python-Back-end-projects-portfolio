@@ -107,6 +107,7 @@ A high performance application-driven and database-integrated project to reinfor
 
 - main page.py - handles web app page logic
 - customer account.py - handles customer personal info
+- bank card.py - encrypts debit card data 
 - items cart.py - handles ordered items quantity logic 
 - orders.py - handles current order status logic
 - shipment.py - handles package tracking logic
