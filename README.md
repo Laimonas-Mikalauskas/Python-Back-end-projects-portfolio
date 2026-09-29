@@ -1,7 +1,7 @@
 # Python-Back-end-projects-portfolio
 This repository contains various backend-focused Python projects that emphasizes database and web application development and backend security. It ranges from data management systems to password managers to demonstrate practical knowledge application in secure backend development by showing attention to detail, creative, analytical thinking and problem solving skills
 
-Concepts
+# Concepts
 
 - Object-Oriented-Programming (objects, classes, attributes, methods, inheritance as core of OOP      design)
 - Modular and maintainable code design
@@ -18,7 +18,7 @@ Concepts
 - Secure user login credentials management such as password storing and hashing with Werkzeug,        Passlib and bcrypt
 - Sensitive data security such as bank account, debit card and shipping address information by        applying authenticated symmetric data encryption in password managers development with              cryptography.Fernet
 
-1. SQLAlchemy book library data management system
+# 1. SQLAlchemy book library data management system
 
 Real-world academic database development project 
 
@@ -26,12 +26,12 @@ Type: Object-oriented book library data management system
 
 Focus: OOP, structured database design
 
-1.1 Description:
+# 1.1 Description:
 
 A class-based book library data management system for managing borrowed and returned books info
 that simulates real world book data management operations by using structured object relationships
 
-1.2 Key features added:
+# 1.2 Key features added:
 
 - Applied class-based architecture for structured and maintainable code design
 - Displayed SQL query results by implementing formatted console output
@@ -41,7 +41,7 @@ that simulates real world book data management operations by using structured ob
 - Performed CRUD operations for data storage, retrieval, update and deletion
 - Implemented ORM models and relationships between the objects for scalable data management           operations 
 
-2. Front-end and back-end-driven developers workplace data management and task tracking system
+# 2. Front-end and back-end-driven developers workplace data management and task tracking system
 
 Real world personal full-stack project 
 
@@ -49,11 +49,11 @@ Type: Object-Oriented Programming and front-end based employees data management 
 
 Focus: OOP, structured database design, app routing, request handling, template rendering, user interface and webpage development 
 
-2.1 Description:
+# 2.1 Description:
 
 A class-based workplace data management and task tracking system for managing and securing employee personal data. Also it tracks task progress and it is designed to simulate real-world employee data management, task tracking and security operations by using structured object relationships and backend logic combined with friendly UI.
 
-2.2 Key features made:
+# 2.2 Key features made:
 
 - Applied class-based architecture to maintain and structure Python code design
 - Displayed SQL query results via formatted console output
@@ -70,7 +70,7 @@ A class-based workplace data management and task tracking system for managing an
 - Implemented Flask-SQLAlchemy database seeding with structured string, integer and float data for    tracking app backend testing workflows within task tracking application 
 - Designed responsive design-based task management app UI created with HTML & CSS
 
-2.3 Project structure
+# 2.3 Project structure
 
 - roles.py – defines employee roles, experience and personal information
 - company.py – manages company data
@@ -81,7 +81,7 @@ A class-based workplace data management and task tracking system for managing an
 - task_manager.html - creates web application page layout
 - task_manager.css - creates simple web application page design
 
-3. FastAPI and SQLalchemy-driven plumbing inventory stock data management and order status tracking system
+# 3. FastAPI and SQLalchemy-driven plumbing inventory stock data management and order status tracking system
 
 Real-world personal backend-driven project
 
@@ -89,11 +89,11 @@ Type: Backend and database-driven high performance online shopping application
 
 Focus: OOP, structured database design, app routing, request handling, backend security 
 
-3.1. Description:
+# 3.1. Description:
 
 A high performance application-driven and database-integrated project to reinforce object-oriented-programming practical knowledge and develop asynchronous programming fundamentals in high performance database-integrated web application development 
 
-3.2. Key features:
+# 3.2. Key features added:
 
 - Applied FastAPI routing to organize shopping app structure and backend logic
 - Applied asynchronous endpoints for structured high-performance web application design
@@ -103,7 +103,7 @@ A high performance application-driven and database-integrated project to reinfor
 - Implemented cryptography.Fernet authenticated symmetric data encryption to secure credit card and   shipping address info within an online shopping application 
 - Implemented FastAPI-SQLAlchemy database seeding with structured string, integer and float data      for tracking shopping app backend testing workflows within online plumbing equipment store          data management system
 
-3.3. Project structure:
+# 3.3. Project structure:
 
 - main page.py - handles web app page logic
 - customer account.py - handles customer personal info
@@ -113,7 +113,7 @@ A high performance application-driven and database-integrated project to reinfor
 - shipment.py - handles package tracking logic
 - data.py - manages plumbing equipment current stock data
 
-5. Password managers
+# 4. Password managers
 
 Real world personal backend security project 
 
@@ -133,13 +133,13 @@ Key features:
 - Applied OOP to ensure structured and maintainable code
 - Applied core Python data types within OOP classes for password-data management and implemented      formatted console output to present processed data in the terminal.
 
-5.1. Project structure 
+# 4.1. Project structure 
 
 - main.py - handles user login info
 - debit card,py - encrypts debit card details
 - identity.py - encrypts user personal info
 
-6. Tech Stack
+# 5. Tech Stack
 - Python (data types, formatted console output, control flow, error handling)
 - OOP (classes, attributes and its initialisation, inheritance, encapsulation that structures         database, lightweight web application and password managers design)
 - SQLAlchemy ORM (database schema design, table and object relationships, CRUD operations, ORM-       based parameterized queries to eliminate SQL injection attacks)
