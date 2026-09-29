@@ -121,10 +121,10 @@ Type: Cryptography and password hashing projects
 
 Focus: OOP, secure login credentials management, backend security 
 
-Description:
+# Description:
 A simple password managers that demonstrates backend security fundamentals such as secure sensitive data and login credentials management and storage by implementing authenticated symmetric encryption, password hashing and cryptographic hashing
 
-Key features:
+# Key features:
 
 - Built a password managers to store customer login, debit card and personal information
 - Implemented cryptography.Fernet authenticated symmetric encryption to protect user identity and     debit card data
