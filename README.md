@@ -131,7 +131,7 @@ A simple password managers that demonstrates backend security fundamentals such 
 - Supported user authentication by implementing Passlib, bcrypt password hashing along with
   SHA-256 cryptographic hashing
 - Applied OOP to ensure structured and maintainable code
-- Applied core Python data types within OOP classes for password-data management and implemented      formatted console output to present processed data in the terminal.
+- Applied core Python data types within OOP classes for password-data management and implemented      formatted console output to display processed data in the terminal.
 
 # 4.1. Project structure 
 
