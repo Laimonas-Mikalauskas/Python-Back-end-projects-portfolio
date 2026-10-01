@@ -7,7 +7,7 @@ This repository contains various backend-focused Python projects that emphasizes
 - Modular and maintainable code design
 - Error handling (try, except statements) in database, lightweight and high-performance web           application development
 - Loop implementation (while, for) to ensure smooth database runtime
-- Formatted console output for displaying processed data in the terminal
+- Formatted console output for displaying data in the terminal
 - Database schema design for structured data storage
 - Structured data storage support by implementing appropriate SQL data types such as string,          integer, float within SQLAlchemy ORM databases
 - CRUD operations for efficient database record management
@@ -131,7 +131,7 @@ A simple password managers that demonstrates backend security fundamentals such 
 - Supported user authentication by implementing Passlib, bcrypt password hashing along with
   SHA-256 cryptographic hashing
 - Applied OOP to ensure structured and maintainable code
-- Applied core Python data types within OOP classes for password-data management and implemented      formatted console output to display processed data in the terminal.
+- Applied core Python data types within OOP classes for password-data management and implemented      formatted console output to display data in the terminal.
 
 # 4.1. Project structure 
 
