@@ -34,7 +34,7 @@ that simulates real world book data management operations by using structured ob
 # 1.2 Key features added:
 
 - Applied class-based architecture for structured and maintainable code design
-- Applied core Python data types to display processed SQL query results in the terminal
+- Applied core Python data types to display data in the terminal
 - Applied control flow (while, for loops to execute program repeatedly) 
 - Implemented exception handling for database operations to prevent potential errors
   and improve data management system reliability 
@@ -56,7 +56,7 @@ A class-based workplace data management and task tracking system for managing an
 # 2.2 Key features made:
 
 - Applied class-based architecture to maintain and structure Python code design
-- Applied core Python data types to display processed SQL query results in the terminal
+- Applied core Python data types to display data in the terminal
 - Applied control flow (while, for loops to execute program repeatedly) 
 - Implemented exception handling for database operations to prevent potential errors
   and improve data management system reliability 
