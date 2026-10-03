@@ -56,15 +56,15 @@ A class-based workplace data management and task tracking system for managing an
 # 2.2 Key features made:
 
 - Applied class-based architecture to maintain and structure Python code design
-- Applied core Python data types to display data in the terminal
+- Applied core Python data types to display employee data in the terminal
 - Applied control flow (while, for loops to execute program repeatedly) 
 - Implemented exception handling for database operations to prevent potential errors
   and improve data management system reliability 
 - Performed CRUD operations for user data storage, retrieval, update and deletion
-- Implemented SQLAlchemy ORM models and relationships for scalable and secure employee data           management operations 
-- Eliminated SQL injection risks by applying ORM-based parameterized queries
+- Implemented SQLAlchemy ORM models and table relationships for scalable and secure employee data           management operations 
+- Eliminated SQL injection risks by applying ORM-based parameterized queries to protect employee usernames and passwords
 - Used backend logic by implementing Flask routing, templates rendering, request handling by          developing lightweight task tracking application to support backend web operations
-- Implemented Flask-SQLAlchemy ORM models to support scalable task tracking application data          management operations  
+- Implemented Flask-SQLAlchemy ORM models and table relationships to support scalable task tracking application data          management operations  
 - Applied HTTP methods such as GET and POST to retrieve and submit task info within Flask web         application
 - Managed secure user login credentials by implementing password hashing with Werkzeug within         SQLAlchemy and Flask-SQLAlchemy databases
 - Implemented Flask-SQLAlchemy database seeding with structured string, integer and float data for    tracking app backend testing workflows within task tracking application 
@@ -121,10 +121,10 @@ Type: Cryptography and password hashing projects
 
 Focus: OOP, secure login credentials management, backend security 
 
-# Description:
+4.1 # Description:
 A simple password managers that demonstrates backend security fundamentals such as secure sensitive data and login credentials management and storage by implementing authenticated symmetric encryption, password hashing and cryptographic hashing
 
-# Key features:
+# 4.2 Key features:
 
 - Built a password managers to store customer login, debit card and personal information
 - Implemented cryptography.Fernet authenticated symmetric encryption to protect user identity and     debit card data
@@ -133,7 +133,7 @@ A simple password managers that demonstrates backend security fundamentals such 
 - Applied OOP to ensure structured and maintainable code
 - Applied core Python data types within OOP classes for password-data management and implemented      formatted console output to display data in the terminal.
 
-# 4.1. Project structure 
+# 4.3. Project structure 
 
 - main.py - handles user login info
 - debit card,py - encrypts debit card details
