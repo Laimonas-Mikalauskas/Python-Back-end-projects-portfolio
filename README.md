@@ -53,7 +53,7 @@ Focus: OOP, structured database design, app routing, request handling, template 
 
 A class-based workplace data management and task tracking system for managing and securing employee personal data. Also it tracks task progress and it is designed to simulate real-world employee data management, task tracking and security operations by using structured object relationships and backend logic combined with friendly UI.
 
-# 2.2 Key features made:
+# 2.2 Key features added:
 
 - Applied class-based architecture to maintain and structure Python code design
 - Applied core Python data types to display employee data in the terminal
@@ -124,7 +124,7 @@ Focus: OOP, secure login credentials management, backend security
 4.1 # Description:
 A simple password managers that demonstrates backend security fundamentals such as secure sensitive data and login credentials management and storage by implementing authenticated symmetric encryption, password hashing and cryptographic hashing
 
-# 4.2 Key features:
+# 4.2 Key features added:
 
 - Built a password managers to store customer login, debit card and personal information
 - Implemented cryptography.Fernet authenticated symmetric encryption to protect user identity and     debit card data
