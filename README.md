@@ -16,7 +16,7 @@ This repository contains various backend-focused Python projects that emphasizes
 - Backend logic fundamentals such as app routing, request handling, HTTP methods usage in             lightweight and high performance web app development with Flask and FastAPI
 - Asynchronous endpoints usage in high performance web app development with Fast API
 - Secure user login credentials management such as password storing and hashing with Werkzeug,        Passlib and bcrypt
-- Sensitive data security such as bank account, debit card and shipping address information by        applying authenticated symmetric data encryption in password managers development with              cryptography.Fernet
+- Sensitive data security such as bank account, debit card and shipping address information by        applying authenticated symmetric data encryption and cryptographic hashing in password managers development with              cryptography.Fernet and SHA-256
 
 # 1. Database-driven SQLAlchemy book library data management system
 
