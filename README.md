@@ -18,9 +18,9 @@ This repository contains various backend-focused Python projects that emphasizes
 - Secure user login credentials management such as password storing and hashing with Werkzeug,        Passlib and bcrypt
 - Sensitive data security such as bank account, debit card and shipping address information by        applying authenticated symmetric data encryption in password managers development with              cryptography.Fernet
 
-# 1. SQLAlchemy book library data management system
+# 1. Database-driven SQLAlchemy book library data management system
 
-Real-world academic database development project 
+Real-world academic database-driven  project 
 
 Type: Object-oriented book library data management system
 
@@ -39,9 +39,9 @@ that simulates real world book data management operations by using structured ob
 - Implemented exception handling for database operations to prevent potential errors
   and improve data management system reliability 
 - Performed CRUD operations for data storage, retrieval, update and deletion
-- Implemented ORM models and relationships between the objects for scalable data management           operations 
+- Implemented ORM models and relationships between the objects to support scalable data management           operations 
 
-# 2. Front-end and back-end-driven developers workplace data management and task tracking system
+# 2. Front-end and back-end-driven company activity, developers workplace data management and task tracking system
 
 Real world personal full-stack project 
 
@@ -51,7 +51,7 @@ Focus: OOP, structured database design, app routing, request handling, template 
 
 # 2.1 Description:
 
-A class-based workplace data management and task tracking system for managing and securing employee personal data. Also it tracks task progress and it is designed to simulate real-world employee data management, task tracking and security operations by using structured object relationships and backend logic combined with friendly UI.
+A class-based company, employee data management and task tracking system for managing and securing company and developer records. Also it tracks task progress and it is designed to simulate real-world company activity that focuses on employee data management, task tracking and security operations by using structured object relationships and backend logic combined with friendly UI.
 
 # 2.2 Key features added:
 
@@ -60,15 +60,17 @@ A class-based workplace data management and task tracking system for managing an
 - Applied control flow (while, for loops to execute program repeatedly) 
 - Implemented exception handling for database operations to prevent potential errors
   and improve data management system reliability 
-- Performed CRUD operations for user data storage, retrieval, update and deletion
+- Performed CRUD operations for employee records storage, retrieval, update and deletion
 - Implemented SQLAlchemy ORM models and table relationships for scalable and secure employee data           management operations 
 - Eliminated SQL injection risks by applying ORM-based parameterized queries to protect employee usernames and passwords
 - Used backend logic by implementing Flask routing, templates rendering, request handling by          developing lightweight task tracking application to support backend web operations
 - Implemented Flask-SQLAlchemy ORM models and table relationships to support scalable task tracking application data          management operations  
 - Applied HTTP methods such as GET and POST to retrieve and submit task info within Flask web         application
 - Managed secure user login credentials by implementing password hashing with Werkzeug within         SQLAlchemy and Flask-SQLAlchemy databases
-- Implemented Flask-SQLAlchemy database seeding with structured string, integer and float data for    tracking app backend testing workflows within task tracking application 
-- Designed responsive design-based task management app UI created with HTML & CSS
+- Implemented Flask-SQLAlchemy database seeding with structured string, integer and float data for    tracking app backend testing workflows within task tracking application
+- Developed task tracking application front-end functionality and UI features by applying
+  HTML & CSS webpage layout and responsive design 
+
 
 # 2.3 Project structure
 
