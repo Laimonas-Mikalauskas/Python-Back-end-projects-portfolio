@@ -83,7 +83,7 @@ A class-based company, employee data management and task tracking system for man
 - task_manager.html - creates web application page layout
 - task_manager.css - creates simple web application page design
 
-# 3. FastAPI and SQLalchemy-driven plumbing inventory stock data management and order status tracking system
+# 3. FastAPI and SQLalchemy-driven plumbing inventory stock, customer data management and order status tracking system
 
 Real-world personal backend-driven project
 
@@ -93,7 +93,7 @@ Focus: OOP, structured database design, app routing, request handling, backend s
 
 # 3.1. Description:
 
-A high performance application-driven and database-integrated project to reinforce object-oriented-programming practical knowledge and develop asynchronous programming fundamentals in high performance database-integrated web application development 
+A high performance application-driven and database-integrated project to reinforce object-oriented-programming practical knowledge and develop asynchronous programming fundamentals in high performance web application development to simulate online shop and customer activity
 
 # 3.2. Key features added:
 
@@ -115,21 +115,21 @@ A high performance application-driven and database-integrated project to reinfor
 - shipment.py - handles package tracking logic
 - data.py - manages plumbing equipment current stock data
 
-# 4. Password managers
+# 4. Password manager
 
 Real world personal backend security project 
 
-Type: Cryptography and password hashing projects
+Type: Backend security project
 
 Focus: OOP, secure login credentials management, backend security 
 
 4.1 # Description:
-A simple password managers that demonstrates backend security fundamentals such as secure sensitive data and login credentials management and storage by implementing authenticated symmetric encryption, password hashing and cryptographic hashing
+A simple password manager that demonstrates backend security fundamentals such as secure sensitive data and login credentials management and storage by implementing authenticated symmetric encryption, password hashing, cryptographic hashing as well as SQLAlchemy ORM models and table relationships
 
 # 4.2 Key features added:
 
-- Built a password managers to store customer login, debit card and personal information
-- Implemented cryptography.Fernet authenticated symmetric encryption to protect user identity and     debit card data
+- Built a password manager to store customer login, debit card and personal information
+- Implemented cryptography.Fernet authenticated symmetric encryption and SQLAlchemy ORM models to securely manage user identity and debit card data
 - Supported user authentication by implementing Passlib, bcrypt password hashing along with
   SHA-256 cryptographic hashing
 - Applied OOP to ensure structured and maintainable code
