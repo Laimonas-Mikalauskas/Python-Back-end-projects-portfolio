@@ -102,7 +102,7 @@ A high performance application-driven and database-integrated project to reinfor
 - Applied HTTP methods such as GET and POST to retrieve and submit customer info
 - Supported scalable item stock data management operations within FastAPI-SQLAlchemy by               implementing SQLAlchemy ORM models and table relationships 
 - Managed secure customer login credentials by implementing passsword hashing with bcrypt and         Passlib 
-- Implemented cryptography.Fernet authenticated symmetric data encryption to secure credit card and   shipping address info within an online shopping application 
+- Implemented cryptography.Fernet authenticated symmetric encryption to secure credit card and   shipping address info within an online shopping application 
 - Implemented FastAPI-SQLAlchemy database seeding with structured string, integer and float data      for tracking shopping app backend testing workflows within online plumbing equipment store          data management system
 
 # 3.3. Project structure:
@@ -129,10 +129,10 @@ A simple password manager that demonstrates backend security fundamentals such a
 # 4.2 Key features added:
 
 - Built a password manager to store customer login, debit card and personal information
-- Implemented cryptography.Fernet authenticated symmetric encryption and SQLAlchemy ORM models to securely manage user identity and debit card data
+- Implemented Fernet 128-bit authenticated symmetric encryption and SQLAlchemy ORM models to securely manage user identity and debit card data
 - Supported user authentication by implementing Passlib, bcrypt password hashing along with
   SHA-256 cryptographic hashing
-- Applied OOP to ensure structured and maintainable code
+- Applied core OOP fundamentals within SQLAlchemy to design structured ORM models and table relationships for scalable data management operations 
 - Applied core Python data types within OOP classes for password-data management and implemented      formatted console output to display data in the terminal.
 
 # 4.3. Project structure 
