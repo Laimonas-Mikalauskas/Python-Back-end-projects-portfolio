@@ -1,10 +1,11 @@
+import base64
+import hashlib
 import json
 import os
 from dataclasses import dataclass
 from typing import Optional
 
 from cryptography.fernet import Fernet, InvalidToken
-from nacl.exceptions import CryptoError
 from passlib.context import CryptContext
 
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
@@ -35,23 +36,41 @@ class ShippingAddress:
         }
 
     def __str__(self):
-        return (
-            f"{self.street}, {self.city}, {self.state}, "
-            f"{self.zip_code}, {self.country}"
+        parts = [self.street, self.city, self.state, self.zip_code, self.country]
+        return ", ".join(part for part in parts if part)
+
+    def __bool__(self):
+        return any(
+            bool(v) for v in (self.street, self.city, self.state, self.zip_code, self.country)
         )
 
 
+def _make_fernet_key_from_secret(secret: str) -> bytes:
+    """Create a valid Fernet key from a plain-text secret."""
+    return base64.urlsafe_b64encode(hashlib.sha256(secret.encode("utf-8")).digest())
+
+
 def _load_fernet_from_env(env_key: str = "FERNET_KEY") -> Fernet:
-    """Load a Fernet key from an environment variable."""
+    """
+    Load a Fernet key from environment variable.
+
+    Accepts either:
+    1. A real Fernet key (44-char base64 string), or
+    2. A plain-text secret, which is converted into a valid Fernet key.
+    """
     raw = os.getenv(env_key)
     if not raw:
-        raise CryptoError(f"Missing encryption key in environment variable: {env_key}")
+        raise ValueError(f"Missing encryption key in environment variable: {env_key}")
 
+    secret = raw.strip()
+
+    # If the value already looks like a valid Fernet key, use it directly
     try:
-        key = raw.encode() if isinstance(raw, str) else raw
-        return Fernet(key)
-    except Exception as exc:
-        raise CryptoError(f"Invalid Fernet key in environment variable: {env_key}") from exc
+        return Fernet(secret.encode("utf-8"))
+    except Exception:
+        # Otherwise derive a valid key from the secret
+        derived_key = _make_fernet_key_from_secret(secret)
+        return Fernet(derived_key)
 
 
 def hash_address(address: ShippingAddress) -> str:
@@ -87,23 +106,6 @@ def mask_address(address: ShippingAddress, keep: int = 4) -> str:
         f"{_mask_value(address.zip_code, keep)}, "
         f"{_mask_value(address.country, keep)}"
     )
-
-
-def _luhn_check(number: str) -> bool:
-    """Return True if number passes Luhn algorithm; digits only expected."""
-    digits = [int(d) for d in number if d.isdigit()]
-    if len(digits) < 12:
-        return False
-
-    checksum = 0
-    parity = len(digits) % 2
-    for i, d in enumerate(digits):
-        if i % 2 == parity:
-            d = d * 2
-            if d > 9:
-                d -= 9
-        checksum += d
-    return checksum % 10 == 0
 
 
 @dataclass
@@ -149,13 +151,13 @@ class AddressInfo:
             "zip_code": self.zip_code,
             "country": self.country,
         }
-        return fernet.encrypt(json.dumps(payload, separators=(",", ":")).encode()).decode()
+        return fernet.encrypt(json.dumps(payload, separators=(",", ":")).encode("utf-8")).decode("utf-8")
 
     def decrypt_address(self, fernet: Fernet, encrypted_address: str) -> "AddressInfo":
         """Decrypt the address information using Fernet symmetric encryption."""
         try:
-            decrypted = fernet.decrypt(encrypted_address.encode())
-            payload = json.loads(decrypted.decode())
+            decrypted = fernet.decrypt(encrypted_address.encode("utf-8"))
+            payload = json.loads(decrypted.decode("utf-8"))
             return AddressInfo(
                 street=payload.get("street"),
                 city=payload.get("city"),
@@ -168,6 +170,11 @@ class AddressInfo:
 
 
 if __name__ == "__main__":
+    # Recommended way: set an actual Fernet key in env
+    # export FERNET_KEY="$(python -c 'from cryptography.fernet import Fernet; print(Fernet.generate_key().decode())')"
+    #
+    # You can also set a plain-text secret. The code will derive a valid key from it.
+
     fernet = _load_fernet_from_env()
 
     address = AddressInfo(
@@ -186,3 +193,15 @@ if __name__ == "__main__":
 
     decrypted_address = address.decrypt_address(fernet, encrypted)
     print("Decrypted address:", decrypted_address)
+
+    shipping = ShippingAddress(
+        street="123 Main St",
+        city="Anytown",
+        state="CA",
+        zip_code="12345",
+        country="USA",
+    )
+
+    hashed = hash_address(shipping)
+    print("Hashed address:", hashed)
+    print("Verified:", verify_address(shipping, hashed))
