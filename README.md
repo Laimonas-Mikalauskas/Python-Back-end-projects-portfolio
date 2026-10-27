@@ -140,6 +140,7 @@ A simple password manager that demonstrates backend security fundamentals such a
 - main.py - handles user login info
 - debit card,py - encrypts debit card details
 - identity.py - encrypts user personal info
+- models.py - stores encrypted data in database
 
 # 5. Tech Stack
 - Python (data types, formatted console output, control flow, error handling)
